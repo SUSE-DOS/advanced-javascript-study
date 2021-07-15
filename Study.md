@@ -1,10 +1,10 @@
 [<img src="assets/images/su-logo.png" alt="Skills Union Logo" height="80px" />](https://www.skillsunion.com/)
+
 # Advanced-JavaScript: Study
 
 Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along with the provided resources to research and answer the [questions below](#questions).
 
 ## Required Reading
-
 
 - [w3: Scope](https://www.w3schools.com/js/js_scope.asp)
 
@@ -24,35 +24,49 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 1. What is a global variable?
 
-    ```
-    Please write your answer here.
-    ```
+   ```
+   A value container that can be accessed anywhere in the javascript
+   ```
 
 1. What is a local variable?
 
-    ```
-    Please write your answer here.
-    ```
+   ```
+   A value container that can only be accessed anywhere in the scope in which it is declared.
+   ```
 
 1. Give an example of higher order function that you might have used ?
 
-    ```js
-    /* Your Answer */
-    ```
+   ```js
+   function hello(callback){
+     console.log("hello);
+     callback();
+   }
+   function world(){
+     console.log("world");
+   }
+   hello(world);
+   ```
 
 1. What is the syntax of an immediately invoked function:
 
-    ```js
-    /* Your Answer */
-    ```
+   ```js
+   let hello = function(callback){
+     console.log("hello);
+     callback();
+   }
+   let world = function(){
+     console.log("world");
+   }
+   hello(world);
+   ```
 
 1. Using a "Fist to Five", what is your comfort and clarity level?
 
-    ```
-    Comfort:
+   ```
+   Comfort: 2
 
-    Clarity:
-    ```
+   Clarity: 3
+   ```
 
 ### Response Guidelines
 
